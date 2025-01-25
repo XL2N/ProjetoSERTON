@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.curved {
+  background: linear-gradient(36.47deg, #121212 -39.13%, #121212 -39.13%, #B29DFF 25.7%, #FFFFFF 195.95%);
+  color: #fff;
+  text-align: center;
+}
+.curved h1 {
+  font-size: 6rem;
+  font-family: 'Poppins';
+}
+.curved p{
+  font-size: 1rem;
+  font-family: 'Poppins';
+  margin: 0 5rem 0 5rem;
+}
+.curved svg {
+  display: block;
+}
