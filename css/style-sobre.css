@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../fonts/Poppins-Light.ttf)
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf)
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../fonts/Rubik-Regular.ttf)
+}
+
+@font-face{
+  font-family: Rubik-Bold;
+  src: url(../fonts/Rubik-Bold.ttf)
+}
+
+body {
+  font-family: Poppins-Regular;
+}
+
+.container {
+  min-width: none;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 24px;
+}
+
+header {
+  padding-top: 40px;
+  display: flex;
+  flex: 1;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li {
+  display: inline;
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header nav li a:hover {
+  font-weight: bold;
+  color: #FF7120;
+}
+
+.active a {
+  color: #FF7120;
+  font-weight: bold;
+}
+
+.active::after {
+  content: "•";
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  color: #FF7120;
+  font-size: 22px; /* Tamanho do ponto */
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttons div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-login {
+  background-color: #023047;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.notifications {
+  display: block;
+  width: 10px;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  padding: 3px;
+  z-index: 2;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -4px;
+}
+
+/*Pagina Sobre*/
+
+section {
+  display: flex;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: Rubik-Bold;
+  font-size: 45px;
+  font-weight: bold;
+  color: #023047;
+  margin-bottom: 22px;   
+}
+
+.sobre {
+  font-size: 18px;
+  
+  color: #FF7120;
+}
+
+p{
+  font-size: 24px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  justify-content: center;
+  width: 393px; 
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins-Regular;
+  width: 751px;
+}
+
+/**/
+
+@media (max-width: 992px) {
+
+
+  body {
+    padding: 10px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  header nav {
+    display: none;
+  }
+
+ }
