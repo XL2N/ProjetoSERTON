@@ -24,9 +24,10 @@ O SertOn permite que usuários naveguem por diferentes categorias de estabelecim
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura das páginas
-- **CSS3**: Estilização e design responsivo
-- **SVG**: Ícones e elementos gráficos
+- **Frontend:** HTML5 Semântico
+- **Framework CSS:** CSS3 Puro (Vanilla CSS, Flexbox, Grid)
+- **Ícones:** SVG
+- **JavaScript:** JavaScript (Vanilla) (Para interações de UI)
 - **Fontes Customizadas**:
   - Hero (Bold, Light, Regular)
   - Poppins (Bold, Light, Medium, Regular, SemiBold)
@@ -47,8 +48,3 @@ O projeto foi desenvolvido com design responsivo, adaptando-se a diferentes tama
 ## 📄 Licença
 
 Este projeto é um protótipo educacional desenvolvido para demonstrar conceitos de desenvolvimento web front-end.
-
----
-
-**Desenvolvido com ❤️ para levar o sertão para o mundo digital**
-
